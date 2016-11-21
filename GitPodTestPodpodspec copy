@@ -1,0 +1,10 @@
+Pod::Spec.new do |spec|
+spec.name         = 'GitPodTestPod'
+spec.version      = '0.0.1'
+spec.license      = { :type => 'BSD' }
+spec.homepage     = 'https://github.com/tonymillion/Reachability'
+spec.authors      = { 'Pawel Olaszek' => 'pawel.olaszek@mobica.com' }
+spec.summary      = 'Just a test'
+spec.source       = { :git => 'https://github.com/pawelolaszek/GitPodTest.git', :tag => 'v0.0.1' }
+spec.source_files = 'GitPodTestPod.{h,m}
+spec.framework    = 'SystemConfiguration'end
